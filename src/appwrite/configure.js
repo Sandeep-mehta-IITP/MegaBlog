@@ -114,7 +114,7 @@ export class Service {
     }
    
     async deleteFile(fileId) {
-        console.log(fileId)
+        //console.log(fileId)
         try {
             await this.bucket.deleteFile(
                 config.appwriteBucketId,
